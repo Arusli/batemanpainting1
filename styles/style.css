@@ -134,14 +134,14 @@ footer p {
 		background-size: auto 0px;
 	}
 	.about {
-		widtH: 300px;
+		width: 300px;
 		font-size: 1.1rem;
 	}
 }
 
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 300px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
