@@ -8,8 +8,6 @@ html {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
 	background-color: #0092b3;
 	height: 100%; /* useful for creating sticky footer */
 	/*
@@ -142,19 +140,17 @@ footer p {
 
 @media (max-width: 667px) and (min-width: 200px) { 
 
-	/*
 	#main {
-		display: flex;
-		flex-direction: column;
+		display: inline-block;
 	}
-	*/
+
 	.color-bar {
 		height: 100px;
 	}
 
 	.photo-section,
 	.about-section {
-		/* flex: none; */
+		flex: none;
 		height: 300px;
 	}
 
@@ -187,11 +183,10 @@ footer p {
 
 @media (max-device-width: 667px) and (min-device-width: 200px) { 
 
-	/* #main {
-		display: flex;
-		flex-direction: column;
+	#main {
+		display: inline-block;
 	}
-	*/
+	
 
 	.color-bar {
 		height: 100px;
@@ -199,7 +194,7 @@ footer p {
 
 	.photo-section,
 	.about-section {
-		/* flex: none; */
+		flex: none;
 		height: 300px;
 	}
 
