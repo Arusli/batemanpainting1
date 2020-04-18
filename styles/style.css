@@ -165,13 +165,14 @@ footer p {
 		width: 90%;
 		font-size: .9rem;
 	}
+	/*
 	html {
 		height: auto;
 	}
 	body {
 		height: auto;
 	}
-	
+	*/
 	footer {
 		margin-top: none;
 	}
@@ -207,13 +208,15 @@ footer p {
 		width: 90%;
 		font-size: .9rem;
 	}
+	
+	/*
 	html {
 		height: auto;
 	}
 	body {
 		height: auto;
 	}
-	
+	*/
 	footer {
 		margin-top: none;
 	}
