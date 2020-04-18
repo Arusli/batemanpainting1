@@ -181,3 +181,46 @@ footer p {
 	}
 	
 }
+
+@media (max-device-width: 667px) and (min-device-width: 200px) { 
+
+	#main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.color-bar {
+		height: 100px;
+	}
+
+	.photo-section,
+	.about-section {
+		flex: none;
+		height: 300px;
+	}
+
+	.about-section {
+		background-image: none;
+	}
+
+	.about {
+		width: 90%;
+		font-size: .9rem;
+	}
+	html {
+		height: auto;
+	}
+	body {
+		height: auto;
+	}
+	
+	footer {
+		margin-top: none;
+	}
+	
+	footer p {
+		font-size: .8rem;
+	}
+	
+}
+
