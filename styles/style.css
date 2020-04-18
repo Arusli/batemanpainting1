@@ -8,8 +8,11 @@ html {
 }
 
 body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 	background-color: #0092b3;
-	height: 100%; /* useful for creating sticky footer */
+	/* height: 100%; useful for creating sticky footer */
 	/*
 	background-image: url(https://cdn.shopify.com/s/files/1/0013/8998/5890/products/8e3fc51b2d615123c1c650e8d612d893_627x.jpg?v=1583937831);
 	background-repeat: no-repeat;
@@ -49,6 +52,7 @@ body {
 /* Main */
 
 #main {
+	flex: 1;
 	display: flex;
 	flex-direction: row;
 }
@@ -165,7 +169,6 @@ footer p {
 	/*
 	html {
 		height: auto;
-
 	}
 	body {
 		height: auto;
@@ -209,13 +212,10 @@ footer p {
 	/*
 	html {
 		height: auto;
-
-	
 	}
 	body {
 		height: auto;
 	}
-	
 	footer {
 		margin-top: none;
 	}
