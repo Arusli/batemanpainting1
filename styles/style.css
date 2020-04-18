@@ -140,7 +140,7 @@ footer p {
 }
 
 
-@media (min-device-width: 200px) and (max-device-width: 667px) { 
+@media (max-device-width: 667px) and (min-device-width: 200px) { 
 
 	#main {
 		display: flex;
