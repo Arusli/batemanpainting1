@@ -162,7 +162,7 @@ footer p {
 		width: 90%;
 		font-size: .9rem;
 	}
-	
+	/*
 	html {
 		height: auto;
 
@@ -172,9 +172,9 @@ footer p {
 	}
 
 	footer {
-		/* margin-top: none; */
+		margin-top: none; 
 	}
-	
+	*/
 	footer p {
 		font-size: .8rem;
 	}
@@ -206,7 +206,7 @@ footer p {
 		width: 90%;
 		font-size: .9rem;
 	}
-	
+	/*
 	html {
 		height: auto;
 
@@ -217,8 +217,9 @@ footer p {
 	}
 	
 	footer {
-		/* margin-top: none; */
+		margin-top: none;
 	}
+	*/
 	
 	footer p {
 		font-size: .8rem;
