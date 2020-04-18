@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%; /* useful for creating sticky footer */
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%; /* useful for creating sticky footer */
+	background-color: #0092b3;
+	/*
+	background-image: url(https://cdn.shopify.com/s/files/1/0013/8998/5890/products/8e3fc51b2d615123c1c650e8d612d893_627x.jpg?v=1583937831);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 900px; */
+}
+
+/* Color Bar and Menu */
+
+.color-bar {
+	height: 160px;
+	width: 100%;
+	background-color: #0092b3;
+	display: flex;
+	align-items: center;
+}
+
+
+.logo-image {
+	height: 60%;
+	margin: auto;
+}
+
+/*
+
+#paint-drip-container {
+
+}
+
+.paint-drip {
+	float: right;
+	height: 200px;
+}
+
+*/
+
+/* Main */
+
+#main {
+	display: flex;
+	flex-direction: row;
+	background-color: #edf0f5;
+}
+
+/* photo source: https://daringplanet.com/new-england-beaches/ 
+	url: https://cdn.shopify.com/s/files/1/0013/8998/5890/products/8e3fc51b2d615123c1c650e8d612d893_627x.jpg?v=1583937831;
+*/
+
+.photo-section {
+	flex: 1;
+	background-image: url(../images/hampton-beach-painting.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 425px;
+}
+
+
+.about-section {
+	flex: 1;
+	background-image: url(../images/paintdripblue.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: auto 100px;
+	height: 425px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.about {
+	font-family: 'Cormorant', serif;
+	font-size: 1.2rem;
+	width: 350px;
+	line-height: 1.6;
+}
+
+.contact {
+	padding-top: 20px;
+}
+
+a:link {
+	color: #0092b3;
+}
+
+
+/* Footer */
+footer {
+	font-family: 'Cormorant', serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgba(60, 60, 60, 30);
+	margin-top: auto; /* useful for creating sticky footer */
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #0092b3;
+}
+
+footer p {
+	font-size: 1rem;
+}
+
+/* responsive stylings */
+
+@media (max-width: 767px) and (min-width: 601px) {
+	.color-bar {
+		height: 140px;
+	}
+
+	.photo-section,
+	.about-section {
+		height: 300px;
+	}
+	.photo-section{
+		flex: 1;
+	}
+	.about-section {
+		flex: 2;
+		background-size: auto 75px;
+	}
+	.about {
+		widtH: 300px;
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 481px) {
+	.color-bar {
+		height: 140px;
+	}
+
+	.photo-section,
+	.about-section {
+		height: 300px;
+	}
+	.photo-section{
+		flex: 1;
+	}
+	.about-section {
+		flex: 2;
+		background-size: 0px;
+	}
+	.about {
+		widtH: 300px;
+		font-size: 1.1rem;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+
+	#main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.color-bar {
+		height: 100px;
+	}
+
+	.photo-section,
+	.about-section {
+		flex: none;
+		height: 300px;
+	}
+
+	.about-section {
+		background-size: 0px;
+	}
+
+	.about {
+		width: 300px;
+		font-size: .9rem;
+	}
+
+	footer p {
+		font-size: .8rem;
+	}
+}
