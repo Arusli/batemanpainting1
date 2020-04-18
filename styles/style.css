@@ -153,7 +153,7 @@ footer p {
 
 	.photo-section,
 	.about-section {
-		/* flex: none; */
+		flex: none;
 		height: 300px;
 	}
 
@@ -168,11 +168,12 @@ footer p {
 	/*
 	html {
 		height: auto;
+	*/
 	}
 	body {
 		height: auto;
 	}
-	*/
+
 	footer {
 		margin-top: none;
 	}
@@ -196,7 +197,7 @@ footer p {
 
 	.photo-section,
 	.about-section {
-		/* flex: none; */
+		flex: none;
 		height: 300px;
 	}
 
@@ -212,11 +213,13 @@ footer p {
 	/*
 	html {
 		height: auto;
+	
+	*/
 	}
 	body {
 		height: auto;
 	}
-	*/
+	
 	footer {
 		margin-top: none;
 	}
