@@ -142,18 +142,19 @@ footer p {
 
 @media (max-width: 667px) and (min-width: 200px) { 
 
+	/*
 	#main {
 		display: flex;
 		flex-direction: column;
 	}
-
+	*/
 	.color-bar {
 		height: 100px;
 	}
 
 	.photo-section,
 	.about-section {
-		flex: none;
+		/* flex: none; */
 		height: 300px;
 	}
 
@@ -177,7 +178,7 @@ footer p {
 */
 
 	footer {
-		margin-top: none;
+		/* margin-top: none; */
 	}
 	
 	footer p {
@@ -188,10 +189,11 @@ footer p {
 
 @media (max-device-width: 667px) and (min-device-width: 200px) { 
 
-	#main {
+	/* #main {
 		display: flex;
 		flex-direction: column;
 	}
+	*/
 
 	.color-bar {
 		height: 100px;
@@ -199,7 +201,7 @@ footer p {
 
 	.photo-section,
 	.about-section {
-		flex: none;
+		/* flex: none; */
 		height: 300px;
 	}
 
@@ -224,7 +226,7 @@ footer p {
 	*/
 	
 	footer {
-		margin-top: none;
+		/* margin-top: none; */
 	}
 	
 	footer p {
