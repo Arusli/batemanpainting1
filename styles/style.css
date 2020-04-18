@@ -158,7 +158,7 @@ footer p {
 	}
 
 	.about-section {
-		background-size: 0px;
+		background-size: auto 0px;
 	}
 
 	.about {
