@@ -10,6 +10,7 @@ html {
 body {
 	display: flex;
 	flex-direction: column;
+	background-color: #0092b3;
 	height: 100%; /* useful for creating sticky footer */
 	/*
 	background-image: url(https://cdn.shopify.com/s/files/1/0013/8998/5890/products/8e3fc51b2d615123c1c650e8d612d893_627x.jpg?v=1583937831);
@@ -52,7 +53,6 @@ body {
 #main {
 	display: flex;
 	flex-direction: row;
-	background-color: #edf0f5;
 }
 
 /* photo source: https://daringplanet.com/new-england-beaches/ 
@@ -75,7 +75,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: auto 100px;
-	background-color: #0092b3;
+	background-color: #edf0f5;
 	height: 425px;
 	display: flex;
 	align-items: center;
